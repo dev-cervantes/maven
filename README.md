@@ -1,3 +1,6 @@
+
+# Cielo
+
 ## Gradle
 No **build.gradle** na raiz do seu projeto, adicionar o maven dentro da closure **allprojects** conforme abaixo:
 ```
@@ -6,7 +9,6 @@ allprojects {
     maven {
       url "https://github.com/dev-cervantes/maven/raw/main"
     } 
-	... 
   }  
 }
 ```
@@ -18,4 +20,3 @@ dependencies {
 }
 ```
 
-Realizar o build do projeto.
