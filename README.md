@@ -1,5 +1,5 @@
 ## Gradle
-No **build.gradle** na raiz do seu projeto, adicionar o mavenLocal() dentro da closure **allprojects** conforme abaixo:
+No **build.gradle** na raiz do seu projeto, adicionar o maven dentro da closure **allprojects** conforme abaixo:
 ```
 allprojects {  
   repositories {  
